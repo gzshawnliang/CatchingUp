@@ -1,0 +1,16 @@
+read K:int
+
+loop 10 read s:string(10)
+
+gameloop
+
+read  eneY:int eneX:int
+
+
+STATEMENT
+catch up and win
+
+INPUT
+K: representing after how many turns the sus man will make another move
+eneX:the sus manâs coordinate
+s: the map

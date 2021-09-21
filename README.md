@@ -6,7 +6,7 @@ You are currently trapped in a weird place with a random person, who seems SUSpi
 ![](src/main/resources/view/assets/demo.gif)
 
 # Rules
-The map is a 10x10 board, where each grid block is either a wall block or a floor block. Each character, you and the sus man, can only move in 4 directions—straight UP, DOWN, LEFT, RIGHT. In each turn, a legal move is to move in those 4 directions for 1 block length without end up going inside a wall block or going out of the map border.
+The map is a $10 \times 10$ board, where each grid block is either a wall block or a floor block. Each character, you and the sus man, can only move in 4 directions—straight UP, DOWN, LEFT, RIGHT. In each turn, a legal move is to move in those 4 directions for 1 block length without end up going inside a wall block or going out of the map border.
 
 # Initialization Input
 

@@ -1,7 +1,9 @@
-This project is a contribution for CodinGame, a variant of an eight-queens puzzle of a Solo game using the [Game Engine Toolkit](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) of [CodinGame](https://www.codingame.com/).
+This project is a contribution for CodinGame, a shortest path problem of a Solo game using the [Game Engine Toolkit](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) of [CodinGame](https://www.codingame.com/).
 
 # The Game
 You are currently trapped in a weird place with a random person, who seems SUSpicious and tries to keep a distance between you and him. You have to find him and ask what is going on. Try to navigate yourself through the obstacles to catch up with the moving sus man.
+
+![](src/main/resources/view/assets/demo.gif)
 
 # Rules
 The map is a 10x10 board, where each grid block is either a wall block or a floor block. Each character, you and the sus man, can only move in 4 directions—straight UP, DOWN, LEFT, RIGHT. In each turn, a legal move is to move in those 4 directions for 1 block length without end up going inside a wall block or going out of the map border.

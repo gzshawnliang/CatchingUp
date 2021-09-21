@@ -22,12 +22,12 @@ The sus man will make a move in response to your move, but with a cold down. $K$
 
 # Output
 
-To end a turn, you should output an uppercase character from 'U', 'D', 'L', 'R' to indicate your move of respectively going UP, DOWN, LEFT, or RIGHT for a distance of 1 block length.
+To end a turn, you should output an uppercase character from $'U', 'D', 'L', 'R'$ to indicate your move of respectively going UP, DOWN, LEFT, or RIGHT for a distance of 1 block length.
 
 # Wrong Output
 
-After you make the move you are standing inside a floor block, or being out of bound (in this case your x or y coordinate is negative or strictly greater than 9).
-Not outputting a character which is uppercase 'U', 'D', 'L', 'R'.
+After you make the move you are standing inside a floor block, or being out of bound (in this case your $x$ or $y$ coordinate is negative or strictly greater than $9$).
+Not outputting a character which is uppercase $'U', 'D', 'L', 'R'$.
 
 # Expert Rules
 
@@ -40,7 +40,8 @@ After you make the move of the turn (at the time the sus man has not responded y
 # Loss Conditions
 
 - Exceed the turn limit of $100$.
-- 
+- Go out of bound ($x$ or $y$ coordinate is negative or strictly greater than $9$)
+- Stand inside a wallblock
 
 # Constraints
 

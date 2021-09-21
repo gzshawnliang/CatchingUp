@@ -10,7 +10,7 @@
    <span class="question-statement">
       <p>The map is a <code>10x10</code> board, where each grid block is either a wall block or a floor block. Each character, you and the sus man, can only move in 4 directions—straight <const>UP</const>, <const>DOWN</const>, <const>LEFT</const>, <const>RIGHT</const>. In each turn, a legal move is to move in those 4 directions for 1 block length without end up going inside a wall block or going out of the map border.</p>
       <p><strong>Initialization Input</strong></p>
-      <p>Before you take the first turn, you are given an input of <code>11</code> lines. The first line is an integer <var>K</var> representing after how many turns the sus man will make another move. The next <code>10</code> lines are a <code>10x10</code> two-dimensional char array.  <span style="color:darkred;"><code>'*'</code></span> represents a wall block and other characters represent a floor block. The uppercase characters <span style="color:darkred;"><code>'P'</code></span> represent your spawning location while the lowercase letters, and  <span style="color:darkred;"><code>'E'</code></span> represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
+      <p>Before you take the first turn, you are given an input of <code>11</code> lines. The first line is an integer <var>K</var> representing after how many turns the sus man will make another move. The next <code>10</code> lines are a <code>10x10</code> two-dimensional char array.  <span style="color:red;"><code>'*'</code></span> represents a wall block and other characters represent a floor block. The uppercase characters <span style="color:red;"><code>'P'</code></span> represent your spawning location while the lowercase letters, and  <span style="color:red;"><code>'E'</code></span> represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
       </p>
       <p>
          <p><strong>Input For a Game Turn</strong></p>
@@ -21,11 +21,11 @@ At the start of each turn, you receive an input containing 2 integers in the sam
          The sus man will make a move in response to your move, but with a cold down. <var>K</var> turns after the sus man’s last move sus man will make another move. In the first turn, sus man always makes a move. When sus man makes a move, he stays <const>STILL</const> or goes <const>UP</const>, <const>DOWN</const>, <const>LEFT</const>, or <const>RIGHT</const> for a distance of 1 block.
       <p><strong>Output</strong></p>
          <p>
-To end a turn, you should output an uppercase character from <span style="color:darkred;"><code>'U'</code></span>, <span style="color:darkred;"><code>'D'</code></span>, <span style="color:darkred;"><code>'L'</code></span>, <span style="color:darkred;"><code>'R'</code></span> to indicate your move of respectively going <const>UP</const>, <const>DOWN</const>, <const>LEFT</const>, or <const>RIGHT</const> for a distance of 1 block length.</p>
+To end a turn, you should output an uppercase character from <span style="color:red;"><code>'U'</code></span>, <span style="color:red;"><code>'D'</code></span>, <span style="color:red;"><code>'L'</code></span>, <span style="color:red;"><code>'R'</code></span> to indicate your move of respectively going <const>UP</const>, <const>DOWN</const>, <const>LEFT</const>, or <const>RIGHT</const> for a distance of 1 block length.</p>
       <p><strong>Wrong Output</strong>
 <ul> After you make the move you are standing inside a floor block, or being out of bound (in this case your x or y coordinate is negative or strictly greater than 9).</ul>
 
-<ul> Not outputting a character which is uppercase <span style="color:darkred;"><code>'U'</code></span>, <span style="color:darkred;"><code>'D'</code></span>, <span style="color:darkred;"><code>'L'</code></span>, <span style="color:darkred;"><code>'R'</code></span>.</ul>
+<ul> Not outputting a character which is uppercase <span style="color:red;"><code>'U'</code></span>, <span style="color:red;"><code>'D'</code></span>, <span style="color:red;"><code>'L'</code></span>, <span style="color:red;"><code>'R'</code></span>.</ul>
       </p>
    </span>
 </div>

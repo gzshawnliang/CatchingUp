@@ -18,7 +18,7 @@ Before you take the first turn, you are given an input of $11$ lines. The first 
 
 At the start of each turn, you receive an input containing $2$ integers in the same line, `eneY` and `eneX`, representing the sus man’s coordinate. If the sus man is at the upper-left corner of the map, both `eneY` and `eneX` should have the value $0$. If sus man goes $DOWN$ for a block length, `eneY` will increase for $1$. If sus man goes RIGHT for a block length, `eneX` will increase for $1$.
 
-The sus man will make a move in response to your move, but with a cold down. $K$ turns after the sus man’s last move sus man will make another move. In the first turn, sus man always makes a move. When sus man makes a move, he stays STILL or goes UP, DOWN, LEFT, or RIGHT for a distance of $1$ block.
+The sus man will make a move in response to your move, but with a cold down. `K` turns after the sus man’s last move sus man will make another move. In the first turn, sus man always makes a move. When sus man makes a move, he stays STILL or goes UP, DOWN, LEFT, or RIGHT for a distance of $1$ block.
 
 # Output
 

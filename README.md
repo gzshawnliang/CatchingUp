@@ -8,7 +8,7 @@ The map is a 10x10 board, where each grid block is either a wall block or a floo
 
 # Initialization Input
 
-Before you take the first turn, you are given an input of $11$ lines. The first line is an integer $K$ representing after how many turns the sus man will make another move. The next $10$ lines are a $10x10$ two-dimensional char array. $'*'$ represents a wall block and other characters represent a floor block. The uppercase characters $'P'$ represent your spawning location while the lowercase letters, and $'E'$ represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
+Before you take the first turn, you are given an input of $11$ lines. The first line is an integer $K$ representing after how many turns the sus man will make another move. The next $10$ lines are a $10 \times 10$ two-dimensional char array. $'*'$ represents a wall block and other characters represent a floor block. The uppercase characters $'P'$ represent your spawning location while the lowercase letters, and $'E'$ represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
 
 # Input For a Game Turn
 

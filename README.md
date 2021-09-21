@@ -12,17 +12,17 @@ The map is a $10 \times 10$ board, where each grid block is either a wall block 
 
 # Initialization Input
 
-Before you take the first turn, you are given an input of $11$ lines. The first line is an integer $K$ representing after how many turns the sus man will make another move. The next $10$ lines are a $10 \times 10$ two-dimensional char array. $'*'$ represents a wall block and other characters represent a floor block. The uppercase characters $'P'$ represent your spawning location while the lowercase letters, and $'E'$ represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
+Before you take the first turn, you are given an input of $11$ lines. The first line is an integer `K` representing after how many turns the sus man will make another move. The next $10$ lines are a $10 \times 10$ two-dimensional char array. $'*'$ represents a wall block and other characters represent a floor block. The uppercase characters $'P'$ represent your spawning location while the lowercase letters, and $'E'$ represent the sus man’s spawning location (the letters also indicate the person’s facing direction, but they are just for looks and do not matter in solving this game).
 
 # Input For a Game Turn
 
-At the start of each turn, you receive an input containing $2$ integers in the same line, $eneY$ and $eneX$, representing the sus man’s coordinate. If the sus man is at the upper-left corner of the map, both $eneY$ and $eneX$ should have the value $0$. If sus man goes $DOWN$ for a block length, $eneY$ will increase for $1$. If sus man goes RIGHT for a block length, $eneX$ will increase for $1$.
+At the start of each turn, you receive an input containing $2$ integers in the same line, `eneY` and `eneX`, representing the sus man’s coordinate. If the sus man is at the upper-left corner of the map, both `eneY` and `eneX` should have the value $0$. If sus man goes $DOWN$ for a block length, `eneY` will increase for $1$. If sus man goes RIGHT for a block length, `eneX` will increase for $1$.
 
 The sus man will make a move in response to your move, but with a cold down. $K$ turns after the sus man’s last move sus man will make another move. In the first turn, sus man always makes a move. When sus man makes a move, he stays STILL or goes UP, DOWN, LEFT, or RIGHT for a distance of $1$ block.
 
 # Output
 
-To end a turn, you should output an uppercase character from $'U', 'D', 'L', 'R'$ to indicate your move of respectively going UP, DOWN, LEFT, or RIGHT for a distance of 1 block length.
+To end a turn, you should output an uppercase character from `'U'`, `'D'`, `'L'`, `'R'` to indicate your move of respectively going UP, DOWN, LEFT, or RIGHT for a distance of 1 block length.
 
 # Wrong Output
 
@@ -45,7 +45,7 @@ After you make the move of the turn (at the time the sus man has not responded y
 
 # Constraints
 
-$0 < eneY < 10$ `<br>`
-$0 < eneX < 10$ `<br>`
-$0 < K < 100$ `<br>`
+$0 < eneY < 10$
+$0 < eneX < 10$
+$0 < K < 100$
 

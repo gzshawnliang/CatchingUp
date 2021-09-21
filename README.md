@@ -1,11 +1,13 @@
-This project is a contribution for CodinGame, a shortest path problem of a Solo game using the [Game Engine Toolkit](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) of [CodinGame](https://www.codingame.com/).
+This project is a contribution for CodinGame, a shortest path problem of a solo game using the [Game Engine Toolkit](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) of [CodinGame](https://www.codingame.com/).
 
 # The Game
+
 You are currently trapped in a weird place with a random person, who seems SUSpicious and tries to keep a distance between you and him. You have to find him and ask what is going on. Try to navigate yourself through the obstacles to catch up with the moving sus man.
 
 ![](src/main/resources/view/assets/demo.gif)
 
 # Rules
+
 The map is a $10 \times 10$ board, where each grid block is either a wall block or a floor block. Each character, you and the sus man, can only move in 4 directions—straight UP, DOWN, LEFT, RIGHT. In each turn, a legal move is to move in those 4 directions for 1 block length without end up going inside a wall block or going out of the map border.
 
 # Initialization Input
@@ -28,15 +30,21 @@ After you make the move you are standing inside a floor block, or being out of b
 Not outputting a character which is uppercase 'U', 'D', 'L', 'R'.
 
 # Expert Rules
+
 The algorithm for the sus man is dumb, and there is always a way to catch up.
 
 # Victory Conditions
+
 After you make the move of the turn (at the time the sus man has not responded yet), the current floor block you are on has a shared side with the sus man’s current floor block.
 
 # Loss Conditions
-- Exceed the turn limit of 100.
+
+- Exceed the turn limit of $100$.
+- 
 
 # Constraints
-$0 < eneY < 10$ <br>
-$0 < eneX < 10$ <br>
-$0 < K < 100$ <br>
+
+$0 < eneY < 10$ `<br>`
+$0 < eneX < 10$ `<br>`
+$0 < K < 100$ `<br>`
+

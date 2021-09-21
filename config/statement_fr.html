@@ -42,7 +42,10 @@ To end a turn, you should output an uppercase character from <span style="color:
       <div class="blk">
           <div class="title">Victory Conditions</div>
           <div class="text">
-              <ul style="padding-bottom:0"><li>After you make the move of the turn (at the time the sus man has not responded yet), the current floor block you are on has a shared side with the sus man’s current floor block. </li></ul>
+              <ul style="padding-bottom:0">
+                 <li>After you make the move of the turn (at the time the sus man has not responded yet), the current floor block you are on has a shared side with the sus man’s current floor block. 
+                 </li>
+                 </ul>
           </div>
       </div>
   </div>
@@ -52,7 +55,12 @@ To end a turn, you should output an uppercase character from <span style="color:
       <div class="blk">
           <div class="title">Loss Conditions</div>
           <div class="text">
-              <ul style="padding-bottom:0"><li>Exceed the turn limit of 100.</li></ul>
+              <ul style="padding-bottom:0">
+                 <li>Exceed the turn limit of 100.</li>
+                 <li>Go out of bound (x or y coordinate is negative or strictly greater than 9)</li>
+                 <li>Stand inside a wallblock</li>
+               </ul>
+              
           </div>
       </div>
   </div>

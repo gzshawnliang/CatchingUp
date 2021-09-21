@@ -207,7 +207,7 @@ public class Solution {
             {
                 ++plrY;
             }
-
+            //nxtD='U';
             System.out.println(nxtD);
         }
     }

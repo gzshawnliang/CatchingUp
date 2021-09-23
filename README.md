@@ -1,5 +1,6 @@
 This project is a contribution for CodinGame, a shortest path problem of a solo game using the [Game Engine Toolkit](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) of [CodinGame](https://www.codingame.com/).
 
+
 # The Game
 
 You are currently trapped in a weird place with a random person, who seems SUSpicious and tries to keep a distance between you and him. You have to find him and ask what is going on. Try to navigate yourself through the obstacles to catch up with the moving sus man.

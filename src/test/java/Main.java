@@ -15,7 +15,7 @@ public class Main {
         gameRunner.setAgent(Solution.class);
 
         // Sets a test case
-        gameRunner.setTestCase("test7.json");
+        gameRunner.setTestCase("test1.json");
 
         gameRunner.start();
     }

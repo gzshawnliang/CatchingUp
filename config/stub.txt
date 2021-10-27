@@ -12,5 +12,5 @@ catch up and win
 
 INPUT
 K: representing after how many turns the sus man will make another move
-eneX:the sus manâs coordinate
+eneX:the sus man's coordinate
 s: the map

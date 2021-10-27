@@ -46,7 +46,7 @@ After you make the move of the turn (at the time the sus man has not responded y
 
 # Constraints
 
-*0 < eneY < 10*
-*0 < eneX < 10*
-*0 < K < 100*
+*0 < eneY < 10* <br>
+*0 < eneX < 10* <br>
+*0 < K < 100* <br>
 

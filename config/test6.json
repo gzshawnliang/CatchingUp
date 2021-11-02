@@ -4,6 +4,6 @@
     "1": "You Can Run But You Can't Hide"
   },
   "testIn": "1\nL*---*---*\n-*-*-*-*-*\n-*-*-*-*-*\nl*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*--\n---*---*--\n0",
-  "isTest": "false",
+  "isTest": "true",
   "isValidator": "true"
 }

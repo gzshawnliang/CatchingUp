@@ -1,9 +1,9 @@
 {
-	"title": {
-		"2": "Random3",
-		"1": "Random3"
-	},
-	"testIn": "2\n*-----L--*\n*---**--**\n*-*****-**\n*---***-**\n**--**--**\n**--**--**\n----**----\n*---**---*\n*---**--**\n---l------\n0",
-	"isTest": "true",
-	"isValidator": "true"
+  "title": {
+    "2": "You Can Run But You Can't Hide",
+    "1": "You Can Run But You Can't Hide"
+  },
+  "testIn": "1\nL*---*---*\n-*-*-*-*-*\n-*-*-*-*-*\nl*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*--\n---*---*--\n0",
+  "isTest": "true",
+  "isValidator": "false"
 }

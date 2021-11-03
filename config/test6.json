@@ -1,9 +1,9 @@
 {
   "title": {
-    "2": "You Can Run But You Can't Hide",
-    "1": "You Can Run But You Can't Hide"
+    "2": "Free Chase",
+    "1": "Free Chase"
   },
-  "testIn": "1\nL*---*---*\n-*-*-*-*-*\n-*-*-*-*-*\nl*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*-*\n-*-*-*-*--\n---*---*--\n0",
+  "testIn": "1\nL---------\n----------\n----------\n----------\n----------\n----------\n----------\n----------\n----------\n---------l\n0",
   "isTest": "true",
-  "isValidator": "true"
+  "isValidator": "false"
 }

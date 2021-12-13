@@ -4,8 +4,7 @@ loop 10 read s:string(10)
 
 gameloop
 
-read  eneY:int
-read  eneX:int
+read  eneY:int eneX:int
 
 
 STATEMENT
@@ -13,6 +12,6 @@ catch up and win
 
 INPUT
 K: representing after how many turns the sus man will make another move
-eneX:the sus man's coordinate,two integers separated by space in a single line,you should split the string in some language
-eneY:the sus man's coordinate,two integers separated by space in a single line,you should split the string in some language
+eneX:the sus man's coordinate,two integers separated by space in a single line
+eneY:the sus man's coordinate,two integers separated by space in a single line
 s: the map
